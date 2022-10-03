@@ -1,0 +1,19 @@
+package logical_program_Assignment;
+
+public class String_Array_Duplicate {
+public static void main(String[] args) {
+	String arr[]= { "Hari","Sanna","Hari","Sanna","Hari","Hari","Happy"
+			
+	};
+	int size=arr.length;
+	for(int i=0;i<=size-1;i++) {
+		for(int j=i+1;j<=size-1;j++) {
+			if(arr[i]==arr[j])
+			{
+				System.out.println(arr[j]);
+			}
+			
+		}
+	}
+}
+}

@@ -1,0 +1,43 @@
+package collation;
+
+import java.util.ArrayList;
+
+public class Example_Collection {
+public static void main(String[] args) {
+	ArrayList al = new ArrayList(6);//data resizable data structure
+	al.add("Hari");//insertion order is maintain and type of index is zero
+	al.add(1);//all types of data stored
+	al.add('B');//default capacity is 10 
+	al.add("Hari");//duplicate data allow
+	al.add(null);//calcute capacity=(capacity*1.5)+1
+	al.add(null);//null  multiple value are allowed
+	System.out.println(al);//[Hari, 1, B, Hari, null, null]
+	System.out.println(al.size());//6
+	//System.out.println(al[0]);
+	System.out.println(al.isEmpty());//false
+	System.out.println(al.contains("Hari"));//true
+	System.out.println(al.contains("Burewar"));//false
+	System.out.println(al.get(3));//hari
+	al.add(3, "Burewar");
+	System.out.println(al);
+	//System.out.println(3,"Burewar");
+	al.remove(5);
+	System.out.println(al);
+	al.add(6,"kapale");
+	System.out.println(al);
+	al.add(7, "abhishek");
+	System.out.println(al);
+	al.remove(6);
+	System.out.println(6);
+	al.add(6,"lahe");
+	System.out.println(al);
+	al.remove(7);
+	System.out.println(al);
+	al.remove(6);
+	System.out.println(al);
+	
+	
+	
+	
+}
+}

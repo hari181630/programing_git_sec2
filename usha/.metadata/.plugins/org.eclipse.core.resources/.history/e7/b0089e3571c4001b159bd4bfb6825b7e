@@ -1,0 +1,25 @@
+package jdbc1111;
+import java.sql.*;
+public class HariJdbc {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		com.mysql.cj.jdbc.Driver d = new com.mysql.cj.jdbc.Driver();
+		DriverManager.registerDriver(d);
+		System.out.println("Register succeful");
+		Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/Hari","root","System");
+		if(Conn!=null)
+		{
+			System.out.println("Connected");	
+		}
+		else
+		{
+			System.out.println("not connected");
+		}
+				
+		
+		
+
+	}
+
+}

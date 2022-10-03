@@ -1,0 +1,45 @@
+package Project1;
+
+import java.awt.Desktop.Action;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class Filpcart {
+
+	public static void main(String[] args) throws InterruptedException {
+		
+		System.setProperty("webdriver.chrome.driver", "E:\\SELENIUM\\chromedriver.exe");
+
+		WebDriver driver = new ChromeDriver();
+
+		driver.get("https://www.flipkart.com/");
+		
+		
+		Thread.sleep(2000);
+		driver.manage().window().maximize();
+		driver.findElement(By.xpath("//button[@class=\"_2KpZ6l _2doB4z\"]"));
+		Thread.sleep(2000);
+		Actions act = new Actions(driver);
+		WebElement login = driver.findElement(By.xpath("(//div[@class=\"_28p97w\"])[1]"));
+		Thread.sleep(2000);
+		act.moveToElement(login).perform();
+		Thread.sleep(4000);
+		WebElement create_Acc = driver.findElement(By.xpath("//a[@class=\"_14Me7y\" and text() = 'New to Flipkart? Create an account']"));
+		Thread.sleep(4000);
+		create_Acc.click();
+		WebElement mobile_no =driver.findElement(By.xpath("//input[@maxlength=\"10\"]"));
+		mobile_no.sendKeys("9527675453");
+		mobile_no.click();
+		Thread.sleep(4000);
+		WebElement button=driver.findElement(By.xpath("//button[@class=\"_2KpZ6l _2HKlqd _3AWRsL\"]"));
+		button.click();
+		
+		//a[@class="_14Me7y" and text() = 'New to Flipkart? Create an account']
+	
+	}
+
+}

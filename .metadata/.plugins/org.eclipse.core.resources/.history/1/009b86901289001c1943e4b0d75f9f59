@@ -1,0 +1,15 @@
+package pkg1;
+
+public class ClassA {
+	String s1="Hari Burewar";
+	public static void main(String[] args) {
+		ClassA a = new ClassA();
+		System.out.println(a.s1);
+		System.out.println(a.length());
+	}
+	private char[] length() {
+		String s1="HHHHHHHHHHHh";
+		String s ="giufu";
+		return s;
+	}
+}

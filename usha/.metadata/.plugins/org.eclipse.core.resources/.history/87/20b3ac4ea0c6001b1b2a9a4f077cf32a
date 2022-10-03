@@ -1,0 +1,15 @@
+package helloUser;
+import java.util.Scanner;
+
+public class UserInputScanner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a=10,b=87;
+		int c;
+		int d=a++
+		int f=b++ + ++a;
+		System.out.println(d);
+		System.out.println(f);
+}
+}

@@ -1,0 +1,35 @@
+package Parametrisation;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.EncryptedDocumentException;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.WorkbookFactory;
+
+public class PrintAllRowColumn {
+
+	public static void main(String[] args) throws EncryptedDocumentException, IOException {
+		FileInputStream file= new FileInputStream("E:\\ExcelSheet1\\Sanjay.xlsx");
+		Sheet sh= WorkbookFactory.create(file).getSheet("Sheet2");
+		int lastIndexRow = sh.getLastRowNum();
+		for(int i=0;i<=lastIndexRow;i++)//outer for loop
+		{
+			 short getlastCellindex = sh.getRow(i).getLastCellNum();
+			for(int j=0;j<=getlastCellindex-1;j++)
+			{
+				String RowCell = sh.getRow(i).getCell(j).getStringCellValue();
+				System.out.print(RowCell+" ");
+			}
+			
+			
+		}
+		
+	}
+	
+
+}
+
+

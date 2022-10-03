@@ -1,0 +1,24 @@
+
+public class Arithmatic_operator {
+	int x;
+	 int y;
+	Arithmatic_operator(){
+		x=100;
+		y=200;
+	}
+	
+	
+public static void main(String[] args) {
+	System.out.println("Arithmatioc all operation below");
+		
+	Arithmatic_operator a = new Arithmatic_operator();
+	a.operator();
+	
+	
+	
+}
+public void operator() {
+	int z=x+y;
+	System.out.println(z);
+}
+}

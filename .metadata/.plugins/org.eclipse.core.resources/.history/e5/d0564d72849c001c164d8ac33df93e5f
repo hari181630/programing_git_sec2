@@ -1,0 +1,12 @@
+package sankaj;
+
+public class Example2 {
+public static void main(String[] args) {
+	String x1="Hari Burewar";
+	String x2="Paraji Burewar";
+	char x[]= {'a','b','c','d','e','f'};
+	char y[]=x1.toCharArray();
+	String z=x.toString();
+	System.out.println(z);
+}
+}

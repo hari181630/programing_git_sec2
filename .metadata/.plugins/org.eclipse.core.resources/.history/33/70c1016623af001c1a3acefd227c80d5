@@ -1,0 +1,10 @@
+package framework;
+
+public class Example1_Without_DDF {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

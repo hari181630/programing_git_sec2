@@ -1,0 +1,35 @@
+package popUp;
+
+import java.sql.Date;
+
+public class Example2_AlertPopUp {
+
+	public static void main(String[] args) {
+		//showTable(5);
+		 Date  d1 = new Date(26, 02, 2022);
+
+         Date d2 = Date(5);
+
+          System.out.println(d1);
+//		
+////	    
+//		 java.util.Date  d1 = new java.util.Date();
+//
+//         java.sql.Date d2 = new java.sql.Date(5);
+//
+//          System.out.println(d1);
+	}
+//	protected static void showTable(int x)
+//	   {
+//	        for(int i=1; i<=10; i++)
+//	        {
+//	             System.out.println(i);
+//	        }
+//	   }
+
+	private static Date Date(int i) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

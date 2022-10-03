@@ -1,0 +1,15 @@
+package pkg1;
+
+public class CountCharacter {
+public static void main(String[] args) {
+	String x1="Hari Burewar";
+	int count=0;
+	int i=0;
+	int size=x1.length();
+	while(size!=' ') {
+		count++;
+		i++;
+	}
+	System.out.println(count);
+}
+}

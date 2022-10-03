@@ -1,0 +1,16 @@
+package pkg1;
+
+public class PrintAtoZ {
+public static void main(String[] args) {
+	printAtoZ();
+}
+public static void printAtoZ() {
+	char l=65;
+	while(l<=90) {
+		System.out.print(" "+l+" ");
+		l++;
+	}
+}
+}
+
+

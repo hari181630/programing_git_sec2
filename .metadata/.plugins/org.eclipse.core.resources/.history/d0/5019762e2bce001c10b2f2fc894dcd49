@@ -1,0 +1,14 @@
+package logical_program_Assignment;
+
+public class Duplcicate_no_Array {
+
+	public static void main(String[] args) {
+		int a[]= {1,1,1,2,3,5,34};
+		int size=a.length;
+		for(int i=0;i<=size;i++) {
+			System.out.println(size);
+		}
+
+	}
+
+}

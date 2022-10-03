@@ -1,0 +1,14 @@
+package pkg1;
+
+public class CountNoDigit {
+public static void main(String[] args) {
+	int t=2345;
+	int count=0;
+	for(int i=0;i<=t;i++) {
+		//count++;
+		System.out.println(count);
+		count++;
+	}
+	//System.out.println(count);
+}
+}

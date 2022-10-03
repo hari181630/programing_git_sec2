@@ -1,0 +1,10 @@
+package pkg1;
+
+public class example3_Multiple_2_withoutusing_Mul {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

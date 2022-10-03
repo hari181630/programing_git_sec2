@@ -1,0 +1,34 @@
+package ListBox;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class ListBoxAccount {
+public static void main(String[] args) throws InterruptedException {
+	System.setProperty("webdriver.chrome.driver", "E:\\SELENIUM\\chromedriver.exe");
+
+	WebDriver driver = new ChromeDriver();
+
+	driver.get("https://www.facebook.com/");
+	Thread.sleep(2000);
+	
+	driver.manage().window().maximize();
+	Thread.sleep(2000);
+	driver.findElement(By.xpath("//a[contains(text(),'Create New Account')]")).click();
+	Thread.sleep(2000);
+	driver.findElement(By.xpath("(//input[@name='firstname'])[1]")).sendKeys("Harsha");
+	Thread.sleep(2000);
+	driver.findElement(By.xpath("//input[@name='lastname']")).sendKeys("Bhogale");
+	Thread.sleep(2000);
+	driver.findElement(By.xpath("//input[@aria-label='Mobile number or email address']")).sendKeys("9356747577");
+	Thread.sleep(2000);
+	driver.findElement(By.xpath("driver.findElement(By.id(\"id=\\\"day\\\"\"))")).sendKeys("1419@Hari");
+	Thread.sleep(2000);
+	//driver.findElement(By.id("id=\"day\""));
+//	Select s1=new Select(driver.findElement(By.xpath(""));
+//	s1.selectByIndex(23);
+	
+}
+}

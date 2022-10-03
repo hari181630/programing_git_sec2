@@ -1,0 +1,22 @@
+package WebElement;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class AutoSelected {
+	public static void main(String[] args) throws InterruptedException {
+		System.setProperty("webdriver.chrome.driver", "E:\\SELENIUM\\chromedriver.exe");
+
+		WebDriver driver = new ChromeDriver();
+
+		driver.get("https://www.youtube.com/");
+		//webdriver is an interface we dont create object so we create reference and get child 
+		driver.manage().window().maximize();
+		Thread.sleep(2000);
+		WebElement search = driver.findElement(By.xpath("//input[@id='search']"));
+		search.sendKeys("srivalli");
+		search.click();
+}
+}

@@ -1,0 +1,12 @@
+package sankaj;
+
+public class VerifyOneStringIntoAnothor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s1="Burewar";
+		String s2="war";
+		System.out.println(s1.contains(s2));
+	}
+
+}

@@ -1,0 +1,19 @@
+package sankaj;
+
+public class Example2 {
+public static void main(String[] args) {
+	String x1="Hari Burewar";
+	String x2="Paraji Burewar";
+	String x3="Usha Burewar";
+	String x4="Varsha Burewar";
+	String x5="Aayushi Telang";
+	char[] x7= {'a','b','c','d'};
+	System.out.println(x7.length);
+	char[] x6 = x1.toCharArray();
+	
+	System.out.println(x1.toCharArray());
+	System.out.println(x6);
+	System.out.println(x3.toCharArray());
+	System.out.println(x6.length);
+}
+}

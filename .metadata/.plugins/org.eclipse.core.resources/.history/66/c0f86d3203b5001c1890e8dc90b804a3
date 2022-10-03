@@ -1,0 +1,10 @@
+package pkg1;
+
+public class example2_compare_2_int_Array {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

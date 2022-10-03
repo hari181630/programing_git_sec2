@@ -1,0 +1,14 @@
+package sankaj;
+
+public class Example2 {
+public static void main(String[] args) {
+	String x1="Hari Burewar";
+	String x2="Paraji Burewar";
+	char x[]= {'a','b','c','d','e','f'};
+	char y[]=x1.toCharArray();
+	//measure a string length with the help of length()
+	System.out.println(x1.length());
+	System.out.println(x2.charAt(0));
+	System.out.println(x2.chars());
+}
+}

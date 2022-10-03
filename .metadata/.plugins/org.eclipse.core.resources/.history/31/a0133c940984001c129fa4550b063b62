@@ -1,0 +1,15 @@
+package sankaj;
+
+public class B {
+public static void main(String[] args) {
+	String s1 = new String("hello");
+	String s2 = new String("hello");
+	if(s1.equals(s2)) {
+		System.out.println("Duplicate object strored in non constant area pool");
+	}
+	else
+	{
+		System.out.println("not duplicate object");
+	}
+}
+}

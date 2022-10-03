@@ -1,0 +1,28 @@
+package Framework;
+
+import org.openqa.selenium.WebElement;
+
+public class KiteLogin2Page {
+
+	
+	WebElement pin;
+	WebElement contiBtn;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

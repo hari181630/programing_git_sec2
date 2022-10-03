@@ -1,0 +1,26 @@
+package pkg1;
+
+import java.util.Scanner;
+
+public class CountNoDigit {
+public static void main(String[] args) {
+	Scanner scn = new Scanner(System.in);
+	int temp=scn.next();
+	int count=0;
+	System.out.println("dfg");
+	for(int i=0;i<=temp;i++) {
+//		int rem=temp%10;
+//		count=count+rem;
+		//temp++;
+		count++;
+	}
+	System.out.println(count);
+}
+}
+//public static void m1() //{
+//	int i=0;
+//	while(123!=0) {
+//		i++;
+//	}
+//	System.out.println(i);
+

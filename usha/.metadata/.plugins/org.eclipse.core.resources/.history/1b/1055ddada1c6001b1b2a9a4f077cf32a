@@ -1,0 +1,18 @@
+package helloUser;
+import java.util.Scanner;
+
+public class UserInputScanner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Hello");
+		int x = sc.nextInt();
+		int y = sc.nextInt();
+		
+		float c = int(c);
+		c = x +y;
+		System.out.println(c);
+		
+}
+}

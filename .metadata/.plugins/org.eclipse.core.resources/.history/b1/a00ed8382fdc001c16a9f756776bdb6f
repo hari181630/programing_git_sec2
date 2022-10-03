@@ -1,0 +1,33 @@
+package LogicalProgram;
+
+import java.util.HashMap;
+import java.util.Set;
+
+public class RepeatingCharacter {
+
+	public static void main(String[] args) {
+		String x ="abaabc";
+		//String y="";
+		//HashMap<Character,Integer> map1 = new HashMap<Character,Integer>();
+		HashMap<Character,Integer> mp   = new HashMap<Character, Integer>();
+		
+		for(int i=0;i<=x.length()-1;i++) {
+			char CharValue=x.charAt(i);
+			if(mp.containsKey(CharValue))
+			{
+				mp.put(CharValue, mp.get(CharValue)+1);
+			}
+			else
+			{
+				mp.put(CharValue,1);
+			}
+		}
+		Set<Character> keys=mp.keySet();
+		//print occurence of each char
+				for (Character key : keys) 
+				{	
+					System.out.println(key +": "+ mp.get(key));
+				}
+	}
+
+}

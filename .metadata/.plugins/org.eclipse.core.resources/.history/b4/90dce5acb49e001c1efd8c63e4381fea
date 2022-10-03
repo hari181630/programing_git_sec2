@@ -1,0 +1,20 @@
+package Parametrisation;
+
+public interface Interface12 {
+//
+	int x=10;
+	void m1();
+}
+class X implements Interface12{
+
+	@Override
+	public void m1() {
+		System.out.println("Hello");
+		
+	}
+	public static void main(String[] args) {
+		X x1 = new X();
+		x1.m1();
+	}
+	
+}

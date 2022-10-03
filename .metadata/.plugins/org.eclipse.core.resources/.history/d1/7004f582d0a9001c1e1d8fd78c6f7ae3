@@ -1,0 +1,33 @@
+package WebTable;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Example2_list_of_CustmiseAllColumn {
+	public static void main(String[] args) throws InterruptedException {
+		System.setProperty("webdriver.chrome.driver", "E:\\SELENIUM\\chromedriver.exe");
+
+		WebDriver driver = new ChromeDriver();
+
+		driver.get("file:///E:/WebTable1.html");
+		Thread.sleep(2000);
+		for(int i=0;i<=4;i++) {
+		List<WebElement> allcol = driver.findElements(By.xpath("//tr/td[1]"));
+		System.out.println(allcol);
+		}
+		//List<WebElement> allColumn = driver.findElements(By.xpath(""));
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

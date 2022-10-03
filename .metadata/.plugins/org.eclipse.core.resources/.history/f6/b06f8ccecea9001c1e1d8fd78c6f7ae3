@@ -1,0 +1,5 @@
+package WebTable;
+
+public class Example2_list_of_CustmiseAllColumn extends Example1 {
+
+}

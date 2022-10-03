@@ -1,0 +1,27 @@
+package sanjay;
+
+import java.awt.Point;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class WebElement_method {
+	public static void main(String[] args) throws InterruptedException {
+		System.out.println("how to open browse");
+	
+	System.setProperty("webdriver.chrome.driver", "E:\\SELENIUM\\chromedriver.exe");
+
+	WebDriver driver = new ChromeDriver();
+
+//	driver.get("https://www.flipkart.com/");
+//	//to open this site in browser
+//	Thread.sleep(2000);
+    driver.navigate().to("https://www.amazon.com/");
+//    Thread.sleep(2000);
+//    driver.manage().window().maximize();
+    Thread.sleep(2000);
+    driver.manage().window().setPosition(new Point (100,200));
+    System.out.println("Window position X coordinates Is -> "+driver.manage().window().getPosition().getX());
+    System.out.println("Window position Y coordinates Is -> "+driver.manage().window().getPosition().getY());
+	}
+}

@@ -1,0 +1,10 @@
+package pkg1;
+
+public class ClassBb {
+	int a=300;
+public static void main(String[] args) {
+	ClassBb b = new ClassBb();
+	System.out.println(b.a);
+	
+}
+}

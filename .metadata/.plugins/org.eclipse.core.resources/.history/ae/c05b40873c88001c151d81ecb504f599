@@ -1,0 +1,22 @@
+package pkg22;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class P1 {
+	
+	
+	
+public static void main(String[] args) {
+	
+System.setProperty("webdriver.chrome.driver", "E:\\SELENIUM\\chromedriver.exe");
+	
+	WebDriver driver = new ChromeDriver();
+	
+	//driver.get("https://www.flipkart.com/");
+	driver.get("https://www.amazon.in/?&ext_vrnc=hi&tag=googhydrabk1-21&ref=pd_sl_7hz2t19t5c_e&adgrpid=58355126069&hvpone=&hvptwo=&hvadid=486458755421&hvpos=&hvnetw=g&hvrand=982317046380613167&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9299854&hvtargid=kwd-10573980&hydadcr=14453_2154373&gclid=CjwKCAiAo4OQBhBBEiwA5KWu_5xk4eX94MC-WqcREchCzf9j1TAYa7oAc7ugwwjnPi-jT_VrxXgArBoCi-YQAvD_BwE");
+	
+	
+	
+}
+}

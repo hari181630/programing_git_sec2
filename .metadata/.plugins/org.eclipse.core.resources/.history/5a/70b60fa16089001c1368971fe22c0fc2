@@ -1,0 +1,19 @@
+package pkg1;
+
+public class FirstNLastDi {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	public static void m1() {
+		int x=23971;
+		int fdigit=0;
+		int lDigit=0;
+		for(int i=0;i<=x;i++) {
+			fdigit=x%10;
+			System.out.println(fdigit);
+		}
+	}
+
+}

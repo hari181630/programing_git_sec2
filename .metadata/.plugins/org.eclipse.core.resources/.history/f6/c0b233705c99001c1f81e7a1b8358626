@@ -1,0 +1,18 @@
+package collation;
+
+import java.util.HashSet;
+
+public class Example2_HashSet {
+public static void main(String[] args) {
+	HashSet hs = new HashSet();
+	hs.add("100");
+	hs.add("Hari");
+	hs.add('H');
+	hs.add(34.3f);
+	hs.add('H');
+	hs.add(null);
+	hs.add(null);
+	hs.add(null);
+	System.out.println(hs);
+}
+}

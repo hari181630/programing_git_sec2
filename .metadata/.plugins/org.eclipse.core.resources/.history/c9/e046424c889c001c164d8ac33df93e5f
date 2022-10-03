@@ -1,0 +1,16 @@
+package sankaj;
+
+public class VerifyOneStringIntoAnothor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s1="Burewar";
+		String s2="burewar";
+		char[] y1=s1.toCharArray();
+		System.out.println(s1.contains(s2));
+		System.out.println(s1.compareToIgnoreCase(s2));
+		System.out.println(s1.compareTo(s2));
+		System.out.println(s1.equals(y1));
+	}
+
+}

@@ -1,0 +1,53 @@
+import java.util.Scanner;
+
+public class CalClatorProgram {
+public static void main(String[] args) {
+	Scanner scn =new Scanner(System.in);
+	System.out.println("enter first Number:");
+	int no1=scn.nextInt();
+	System.out.println("enter second Number:");
+	int no2=scn.nextInt();
+	System.out.println("user performed operation[+,-,*,/]");
+	char operator=scn.next().charAt(0);
+	scn.close();
+	int number=4;
+	while(number>=0) {
+		
+		
+	
+	if(operator=='+'||operator=='-'||operator=='*'||operator=='/') {
+	int result=calculator(no1,no2,operator);
+	System.out.println(no1+" "+operator+" "+no2+"= "+result);
+	number--;
+	}
+	//number--;
+	else
+	{
+		System.out.println("invalid operation you are doing please enter valid arithmethic operation");
+	}
+	//number--;
+	}
+	
+	
+}
+public static int calculator(int x,int y,char operator) {
+	int res=0;
+	switch(operator) {
+	case '+':
+		res=x+y;
+		break;
+	case '-':
+		res=x-y;
+		break;
+	case '*':
+		res=x*y;
+		break;
+	case '/':
+		res=x/y;
+		break;
+	}//switch end
+	
+	
+	return res;
+}//method end 
+}//class end

@@ -1,0 +1,17 @@
+package pkg1;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class OpenBroserProgram {
+	public static void main(String[] args) {
+		
+		//step1: set chromedriver.exe file path
+		System.setProperty("\"webdriver.chrome.driver\", \"E:\\\\SELENIUM\\\\chromedriver.exe", null);
+		
+		//step2: create object of chromedriver class
+		//ChromeDriver driver =new ChromeDriver();
+		WebDriver driver =new ChromeDriver();
+		driver.get("https://www.google.com");
+	}
+}

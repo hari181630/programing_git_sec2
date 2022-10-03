@@ -1,0 +1,19 @@
+package sankaj;
+
+public class Example1 {
+public static void main(String[] args) {
+	String x1="Hari Burewar";
+	String x2="Paraji Burewar";
+	String x3="Usha Burewar";
+	String x4="Varsha Burewar";
+	String x5="Aayushi Telang";
+	String x6="";
+	System.out.println(x1.length());
+	System.out.println(x2.length());
+	System.out.println(x3.length());
+	System.out.println(x4.length());
+	System.out.println(x5.length());
+	System.out.println(x5.isEmpty());//
+	System.out.println(x6.isBlank());//
+}
+}

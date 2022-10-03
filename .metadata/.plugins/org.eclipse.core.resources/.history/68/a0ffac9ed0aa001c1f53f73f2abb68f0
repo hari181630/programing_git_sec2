@@ -1,0 +1,23 @@
+package Framework;
+
+import org.openqa.selenium.WebElement;
+
+public class KiteLoginPage1 {
+		
+	
+	WebElement USN;
+	WebElement PassWord;
+	WebElement login;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

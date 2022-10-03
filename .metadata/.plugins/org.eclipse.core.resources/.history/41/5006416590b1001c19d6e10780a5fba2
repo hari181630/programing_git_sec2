@@ -1,0 +1,19 @@
+package pkg;
+
+
+
+public class TestNgBasics {
+
+//@:annotations each and every ann start with method
+@BeforeClass
+public void launchBrowser() {
+	
+}
+
+
+
+
+
+
+
+}

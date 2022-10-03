@@ -1,0 +1,18 @@
+package pkg1;
+
+public class Reverse_NO {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int no=12345;
+		String x=" ";
+		String rev=Integer.toString(no);
+		for(int i=rev.length()-1;i>=0;i++)
+		{
+			 x= x+rev.charAt(i);
+		}
+	int	i=Integer.parseInt(rev);
+		System.out.println(i);
+	}
+
+}

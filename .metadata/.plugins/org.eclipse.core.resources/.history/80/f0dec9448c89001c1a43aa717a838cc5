@@ -1,0 +1,16 @@
+package pkg1;
+
+import java.util.Scanner;
+
+public class ReverseNo {
+public static void main(String[] args) {
+Scanner Scn = new Scanner(System.in);
+System.out.println("enter any nuber");
+int number = Scn.nextInt();
+for(int i=number;number>=0;i--) {
+	System.out.println(i);
+}
+
+
+}
+}

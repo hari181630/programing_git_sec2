@@ -1,0 +1,36 @@
+package pkg;
+
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
+
+public class TestNgBasics {
+	@BeforeSuite
+	public void setUp() {
+		System.out.println("setUp system property for chrome");
+	}
+
+
+//@:annotations each and every ann start with method
+@BeforeClass
+public void launchBrowser() {
+	System.out.println("launch crome browser");
+}
+@BeforeMethod
+public void enterUrl() {
+	System.out.println("enter Url");
+}
+@BeforeTest
+public void login() {
+	System.out.println("login method");
+}
+
+
+
+
+
+
+
+
+}

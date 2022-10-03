@@ -1,0 +1,26 @@
+package loops;
+
+public class Arrays {
+	//Array is a data structure 
+	//Array is a simiar type of data which size is fixed 
+	//we can retrieve and sort data efficiently
+	int x[]= {11,12,13,12,15,13,18,18,20};
+public static void main(String[] args) {
+	Arrays a1 = new Arrays();
+	int y[]= {11,12,13,12,15,13,18,18,20};
+	int count=0;
+//	int size = x.length;
+//	System.out.println(size);
+	for(int i=0;i<=y.length;i++) {
+		for(int j=i+1;j<=y.length-1;j++) {
+			if(y[i]==y[j]) {
+				//count++;
+				System.out.println(count);
+				count++;
+			
+			}
+		}
+		}
+	}
+
+}

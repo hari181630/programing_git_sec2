@@ -1,0 +1,17 @@
+package pkg1;
+
+import java.util.Scanner;
+
+public class FirstNLastDi {
+
+	public static void main(String[] args) {
+		Scanner scn = new Scanner(System.in);
+		System.out.println("enter any number");
+		int x1=scn.nextInt();
+		x1=x1%10;
+		System.out.println(x1);
+		
+	}
+	
+
+}

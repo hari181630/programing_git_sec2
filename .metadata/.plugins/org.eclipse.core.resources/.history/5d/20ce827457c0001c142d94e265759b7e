@@ -1,0 +1,15 @@
+package p;
+
+import java.util.Scanner;
+
+public class UsingWhilePerformArmstrongNo {
+public static void main(String[] args) {
+	Scanner scn=new Scanner(System.in);
+	System.out.println("enter new number");
+	int num=scn.nextInt();
+	int temp=num;
+	while(num!=0) {
+		
+	}
+}
+}

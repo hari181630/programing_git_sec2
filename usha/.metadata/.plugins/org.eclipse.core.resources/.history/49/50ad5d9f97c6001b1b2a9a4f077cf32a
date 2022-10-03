@@ -1,0 +1,8 @@
+
+public class JK {
+public static void main(String[] args) {
+	double myDouble=2.9039;
+	int x = int(myDouble);
+	System.out.println(x);
+}
+}

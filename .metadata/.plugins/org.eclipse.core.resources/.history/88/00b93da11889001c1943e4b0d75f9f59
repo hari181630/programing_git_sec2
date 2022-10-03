@@ -1,0 +1,15 @@
+package pkg1;
+
+import java.util.Scanner;
+
+public class CountNoDigit {
+public static void main(String[] args) {
+	Scanner scn = new Scanner(System.in);
+	int temp=scn.nextInt();
+	int count=0;
+	for(int i=0;i<=temp;i++) {
+		count++;
+	}
+	System.out.println(count);
+}
+}

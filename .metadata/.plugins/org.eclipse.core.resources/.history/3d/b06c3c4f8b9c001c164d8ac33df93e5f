@@ -1,0 +1,9 @@
+package sankaj;
+
+public class Example6 {
+public static void main(String[] args) {
+	String s1="Wagh";
+	String s2="Burewar";
+	System.out.println(s1.replace("Wagh", "Burewar"));
+}
+}

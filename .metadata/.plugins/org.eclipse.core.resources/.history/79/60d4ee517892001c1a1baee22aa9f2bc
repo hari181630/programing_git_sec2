@@ -1,0 +1,20 @@
+package sankaj;
+
+public class StringS {
+public static void main(String[] args) {
+	String s = "Hari Burewar";//heap area//string pool area//constant pool area
+	String s1 = new String("Paraji Burewar");//heap area//string pool area//non-constant pool area
+	String s2="Usha";
+	String s3="payal";
+	String s4="Usha";
+	String s5="Usha";
+	String s6 = new String("Usha");
+	String s7= new String("Usha");
+	System.out.println(s2.equals(s3));
+	
+	
+	
+
+	
+}
+}

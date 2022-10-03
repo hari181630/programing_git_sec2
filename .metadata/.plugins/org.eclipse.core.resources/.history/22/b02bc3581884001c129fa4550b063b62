@@ -1,0 +1,15 @@
+package sankaj;
+
+public class D {
+public static void main(String[] args) {
+	String s11="Burewar";
+	System.out.println(s11.lastIndexOf('r'));
+	System.out.println(s11.indexOf("war"));
+	String s12="ababab";
+	System.out.println(s12.stripIndent());
+	System.out.println(s12.indexOf('A'));
+//	for(int i=0;i<"Burewar";i++) {
+//		
+//	}
+}
+}
